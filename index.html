@@ -46,13 +46,15 @@
     </fieldset>
     <fieldset class="form-block">
       <legend>An interesting fact about you!</legend>
-      <label>
-        Do you love cats?
+      <label for="yes">Do you love cats?
         <input id="yes" value="yes" type="radio" name="cats" checked>
-      <label for="yes">Yes</label>
-        <input id="no" value="no" type="radio" name="cats">
-        <label for="no">No</label>
+        Yes
       </label>
+      <label for="no">
+        <input id="no" value="no" type="radio" name="cats">
+        No
+      </label>
+
       <label class="form-item" for="fav-color">
         What is your favorite color?
         <input type="color" id="fav-color" name="color" value="black">
